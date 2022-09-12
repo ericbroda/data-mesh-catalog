@@ -21,10 +21,10 @@ spec:
   dependsOn: ["component:account-dataproduct", "component:product-dataproduct", "component:transaction-dataproduct"]
 
   # Custom fields
-  # GitHub REST API: "https://api.github.com/repos/ericbroda/data-mesh-product-new/contents/specification-summary.yaml"
-  summarySpecification: "https://github.com/ericbroda/data-mesh-product-new/blob/master/specification-summary.yaml"
-  apiSpecification: "https://github.com/ericbroda/data-mesh-product-new/blob/master/specification-api.yaml"
-  querySpecification: "https://github.com/ericbroda/data-mesh-product-new/blob/master/specification-query.yaml"
-  eventSpecification: "https://github.com/ericbroda/data-mesh-product-new/blob/master/specification-event.yaml"
+  # GitHub REST API: "https://api.github.com/repos/ericbroda/data-mesh-product-new/contents/specification-license.yaml"
+  licenseSpecification: "https://github.com/ericbroda/data-mesh-catalog/blob/main/dataproducts/party/specification-license.yaml"
+  apiSpecification: "https://github.com/ericbroda/data-mesh-catalog/blob/main/dataproducts/party/specification-api.yaml"
+  querySpecification: "https://github.com/ericbroda/data-mesh-catalog/blob/main/dataproducts/party/specification-query.yaml"
+  eventSpecification: "https://github.com/ericbroda/data-mesh-catalog/blob/main/dataproducts/party/specification-event.yaml"
   # Sample for schemas: https://datahubproject.io/docs/metadata-service (Retrieving Entity Aspects section)
-  schemaSpecification: "https://github.com/ericbroda/data-mesh-product-new/blob/master/specification-schema.json"
+  schemaSpecification: "https://github.com/ericbroda/data-mesh-catalog/blob/main/dataproducts/party/specification-schema.json"
