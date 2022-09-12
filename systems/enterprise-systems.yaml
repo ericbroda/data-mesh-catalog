@@ -1,4 +1,4 @@
-# ---
+---
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
@@ -6,15 +6,15 @@ metadata:
 spec:
   owner: guest
   domain: party-domain
-# ---
-# apiVersion: backstage.io/v1alpha1
-# kind: System
-# metadata:
-#   name: customer-web
-# spec:
-#   owner: guest
-#   domain: party-domain
-# ---
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: customer-web
+spec:
+  owner: guest
+  domain: party-domain
+---
 # apiVersion: backstage.io/v1alpha1
 # kind: System
 # metadata:
