@@ -1,0 +1,32 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "dataproduct-test"
+  namespace: broda-group-software
+  title: "Data Product Test"
+  description: "Data Product Test Description"
+  # labels:
+  # annotations:
+  tags: ["tag-1"]
+  # links:
+spec:
+  # Reserved fields
+  type: data-product
+  lifecycle: "experimental"
+  owner: "user:guest"
+  system: "system-1"
+  subcomponentOf: "parent-1"
+  providesApis: ["somePublishedAPI"]
+  consumesApis: ["someConsumedAPI"]
+  dependsOn: ["component:dataproduct-001"]
+
+
+  # Custom fields
+  # GitHub REST API: "https://api.github.com/repos/ericbroda/data-mesh-product-new/contents/specification-license.yaml"
+  licenseSpecification: "https://github.com/ericbroda/data-mesh-product-new/blob/master/specification-license.yaml"
+
+  apiSpecification: "https://github.com/ericbroda/data-mesh-product-new/blob/master/specification-api.yaml"
+  querySpecification: "https://github.com/ericbroda/data-mesh-product-new/blob/master/specification-query.yaml"
+  eventSpecification: "https://github.com/ericbroda/data-mesh-product-new/blob/master/specification-event.yaml"
+  # Sample for schemas: https://datahubproject.io/docs/metadata-service (Retrieving Entity Aspects section)
+  schemaSpecification: "https://github.com/ericbroda/data-mesh-product-new/blob/master/specification-schema.json"
