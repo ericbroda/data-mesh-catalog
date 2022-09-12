@@ -34,7 +34,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
-  name:core-banking-accounts
+  name: core-banking-accounts
 spec:
   owner: guest
   domain: account-domain
@@ -42,7 +42,7 @@ spec:
 # apiVersion: backstage.io/v1alpha1
 # kind: System
 # metadata:
-#   name:core-banking-products
+#   name: core-banking-products
 # spec:
 #   owner: guest
 #   domain: product-domain
@@ -50,7 +50,7 @@ spec:
 # apiVersion: backstage.io/v1alpha1
 # kind: System
 # metadata:
-#   name:core-banking-transactions
+#   name: core-banking-transactions
 # spec:
 #   owner: guest
 #   domain: transaction-domain
