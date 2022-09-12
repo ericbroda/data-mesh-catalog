@@ -2,7 +2,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
-  name: customerAnalytics
+  name: customer-analytics
 spec:
   owner: guest
   domain: party-domain
