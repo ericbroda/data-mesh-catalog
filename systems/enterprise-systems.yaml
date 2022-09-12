@@ -15,43 +15,43 @@ spec:
   owner: guest
   domain: party-domain
 ---
-# apiVersion: backstage.io/v1alpha1
-# kind: System
-# metadata:
-#   name: customer-advisor
-# spec:
-#   owner: guest
-#   domain: party-domain
-# ---
-# apiVersion: backstage.io/v1alpha1
-# kind: System
-# metadata:
-#   name: customer-mobile
-# spec:
-#   owner: guest
-#   domain: party-domain
-# ---
-# apiVersion: backstage.io/v1alpha1
-# kind: System
-# metadata:
-#   name:core-banking-accounts
-# spec:
-#   owner: guest
-#   domain: account-domain
-# ---
-# apiVersion: backstage.io/v1alpha1
-# kind: System
-# metadata:
-#   name:core-banking-products
-# spec:
-#   owner: guest
-#   domain: product-domain
-# ---
-# apiVersion: backstage.io/v1alpha1
-# kind: System
-# metadata:
-#   name:core-banking-transactions
-# spec:
-#   owner: guest
-#   domain: transaction-domain
-# ---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: customer-advisor
+spec:
+  owner: guest
+  domain: party-domain
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: customer-mobile
+spec:
+  owner: guest
+  domain: party-domain
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name:core-banking-accounts
+spec:
+  owner: guest
+  domain: account-domain
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name:core-banking-products
+spec:
+  owner: guest
+  domain: product-domain
+---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name:core-banking-transactions
+spec:
+  owner: guest
+  domain: transaction-domain
+---
