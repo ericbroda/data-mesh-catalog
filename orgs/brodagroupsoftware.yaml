@@ -1,4 +1,4 @@
-# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-group
+---
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
@@ -7,7 +7,6 @@ spec:
   type: root
   children: [IT]
 ---
-# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-group
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
@@ -16,7 +15,6 @@ spec:
   type: team
   children: []
 ---
-# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-user
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
@@ -24,7 +22,6 @@ metadata:
 spec:
   memberOf: [IT]
 ---
-# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-user
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
@@ -32,7 +29,6 @@ metadata:
 spec:
   memberOf: [IT]
 ---
-# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-user
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
@@ -40,7 +36,6 @@ metadata:
 spec:
   memberOf: [IT]
 ---
-# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-user
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
@@ -48,7 +43,6 @@ metadata:
 spec:
   memberOf: [IT]
 ---
-# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-user
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
