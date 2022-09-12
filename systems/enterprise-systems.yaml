@@ -1,10 +1,10 @@
-# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-group
+---
 apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
   name: customer-analytics
 spec:
-  owner: eric.broda
+  owner: guest
   domain: party-domain
 ---
 apiVersion: backstage.io/v1alpha1
@@ -12,7 +12,7 @@ kind: System
 metadata:
   name: customer-web
 spec:
-  owner: eric.broda
+  owner: guest
   domain: party-domain
 ---
 apiVersion: backstage.io/v1alpha1
@@ -20,7 +20,7 @@ kind: System
 metadata:
   name: customer-advisor
 spec:
-  owner: eric.broda
+  owner: guest
   domain: party-domain
 ---
 apiVersion: backstage.io/v1alpha1
@@ -28,7 +28,7 @@ kind: System
 metadata:
   name: customer-mobile
 spec:
-  owner: eric.broda
+  owner: guest
   domain: party-domain
 ---
 apiVersion: backstage.io/v1alpha1
@@ -36,7 +36,7 @@ kind: System
 metadata:
   name:core-banking-accounts
 spec:
-  owner: eric.broda
+  owner: guest
   domain: account-domain
 ---
 apiVersion: backstage.io/v1alpha1
@@ -44,7 +44,7 @@ kind: System
 metadata:
   name:core-banking-products
 spec:
-  owner: eric.broda
+  owner: guest
   domain: product-domain
 ---
 apiVersion: backstage.io/v1alpha1
@@ -52,6 +52,6 @@ kind: System
 metadata:
   name:core-banking-transactions
 spec:
-  owner: eric.broda
+  owner: guest
   domain: transaction-domain
 ---
