@@ -6,8 +6,8 @@ metadata:
 spec:
   type: openapi
   lifecycle: production
-  owner: petstore@example.com
-  system: examples
+  owner: guest
+  system: customer-advisor
   # This can also be used: $text: https://petstore.swagger.io/v2/swagger.json
   definition: |
     {
