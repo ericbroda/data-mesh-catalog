@@ -1,9 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "dataproduct-new"
+  name: "dataproduct-test"
   namespace: broda-group-software
-  title: "Data Product New"
+  title: "Data Product Test"
   description: "Data Product New Description"
   # labels:
   # annotations:
