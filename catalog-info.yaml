@@ -4,7 +4,7 @@ metadata:
   name: "dataproduct-test"
   namespace: broda-group-software
   title: "Data Product Test"
-  description: "Data Product New Description"
+  description: "Data Product Test Description"
   # labels:
   # annotations:
   tags: ["tag-1"]
