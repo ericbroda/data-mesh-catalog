@@ -5,8 +5,8 @@ metadata:
   description: A collection of sample entities
 spec:
   targets:
-    - ./systems/enterprise-systems.yaml
-    - ./domains/enterprise-domains.yaml
     - ./orgs/brodagroupsoftware.yaml
+    - ./domains/enterprise-domains.yaml
+    - ./systems/enterprise-systems.yaml
     - ./apis/petstore.yaml
-    # - ./dataproducts/party/catalog-info.yaml
+    - ./dataproducts/party/catalog-info.yaml
