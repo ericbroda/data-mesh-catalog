@@ -7,6 +7,6 @@ spec:
   targets:
     - ./apis/petstore.yaml
     - ./domains/enterprise-domains.yaml
-    # - ./orgs/brodagroupsoftware.yaml
+    - ./orgs/brodagroupsoftware.yaml
     # - ./systems/enterprise-systems.yaml
     # - ./dataproducts/party/catalog-info.yaml
