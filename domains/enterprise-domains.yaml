@@ -2,7 +2,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
-  name: partyDomain
+  name: party-domain
   description: partyDomain
 spec:
   owner: guest
@@ -10,7 +10,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
-  name: accountDomain
+  name: account-domain
   description: accountDomain
 spec:
   owner: guest
@@ -18,7 +18,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
-  name: productDomain
+  name: product-domain
   description: productDomain
 spec:
   owner: guest
@@ -26,7 +26,7 @@ spec:
 apiVersion: backstage.io/v1alpha1
 kind: Domain
 metadata:
-  name: transactionDomain
+  name: transaction-domain
   description: transactionDomain
 spec:
   owner: guest
