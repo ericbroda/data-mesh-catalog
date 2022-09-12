@@ -1,0 +1,36 @@
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-group
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: party-domain
+  description: party-domain
+spec:
+  owner: eric.broda
+---
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-group
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: account-domain
+  description: party-domain
+spec:
+  owner: eric.broda
+---
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-group
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: product-domain
+  description: party-domain
+spec:
+  owner: eric.broda
+---
+# https://backstage.io/docs/features/software-catalog/descriptor-format#kind-group
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: transaction-domain
+  description: party-domain
+spec:
+  owner: eric.broda
+---

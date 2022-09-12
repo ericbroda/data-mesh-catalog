@@ -1,0 +1,40 @@
+queryspecification:
+  - query:
+    title: "query-001"
+    description: "Query 001 Description"
+    contact:
+      name: "owner-1"
+      email: contact@brodagroupsoftware.com
+    version: v0.0.1
+    statement:
+      "select * from Account"
+
+  - query:
+    title: "query-002"
+    description: "Query 002 Description"
+    contact:
+      name: "owner-1"
+      email: contact@brodagroupsoftware.com
+    version: v0.0.1
+    statement:
+      "select * from Product"
+
+  - query:
+    title: "query-003"
+    description: "Query 003 Description"
+    contact:
+      name: "owner-1"
+      email: contact@brodagroupsoftware.com
+    version: v0.0.1
+    statement:
+      "select * from Party"
+
+  - query:
+    title: "query-004"
+    description: "Query 004 Description"
+    contact:
+      name: "owner-1"
+      email: contact@brodagroupsoftware.com
+    version: v0.0.1
+    statement:
+      "select * from Transaction"

@@ -1,0 +1,136 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: Petstore
+  description: Petstore Sample OpenAPI Specification
+spec:
+  type: openapi
+  lifecycle: production
+  owner: petstore@example.com
+  system: examples
+  # This can also be used: $text: https://petstore.swagger.io/v2/swagger.json
+  definition: |
+    {
+      "openapi": "3.0.1",
+      "servers": [
+        {
+          "url": "http://brodagroupsoftware/v1"
+        }
+      ],
+      "info": {
+        "title": "API 001",
+        "description": "API 001",
+        "contact": {
+          "name": "Eric Broda",
+          "email": "eric.broda@brodagroupsoftware.com"
+        },
+        "version": "v0.0.1"
+      },
+      "paths": {
+        "/discover": {
+          "get": {
+            "summary": "Discover endpoint",
+            "operationId": "discoverGET",
+            "tags": [
+              "discover"
+            ],
+            "responses": {
+              "200": {
+                "description": "Successful response",
+                "content": {
+                  "application/json": {
+                    "schema": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "/observe": {
+          "get": {
+            "summary": "Observe endpoint",
+            "operationId": "observeGET",
+            "tags": [
+              "observe"
+            ],
+            "responses": {
+              "200": {
+                "description": "Successful response",
+                "content": {
+                  "application/json": {
+                    "schema": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "/usage": {
+          "get": {
+            "summary": "Usage endpoint",
+            "operationId": "usageGET",
+            "tags": [
+              "usage"
+            ],
+            "responses": {
+              "200": {
+                "description": "Successful response",
+                "content": {
+                  "application/json": {
+                    "schema": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "/logs": {
+          "get": {
+            "summary": "Logs endpoint",
+            "operationId": "logsGET",
+            "tags": [
+              "logs"
+            ],
+            "responses": {
+              "200": {
+                "description": "Successful response",
+                "content": {
+                  "application/json": {
+                    "schema": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "/alerts": {
+          "get": {
+            "summary": "Alerts endpoint",
+            "operationId": "alertsGET",
+            "tags": [
+              "alerts"
+            ],
+            "responses": {
+              "200": {
+                "description": "Successful response",
+                "content": {
+                  "application/json": {
+                    "schema": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }

@@ -1,0 +1,30 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "party-dataproduct"
+  namespace: broda-group-software
+  title: "Party Data Product 01"
+  description: "Broda Group Software sample party data product"
+  # labels:
+  # annotations:
+  tags: ["customer", "party", "prospect"]
+  # links:
+spec:
+  # Reserved fields
+  type: data-product
+  lifecycle: "experimental"
+  owner: "user:eric.broda"
+  system: "customer-analytics"
+  subcomponentOf: "parent-1"
+  providesApis: ["somePublishedAPI"]
+  consumesApis: ["someConsumedAPI"]
+  dependsOn: ["component:account-dataproduct", "component:product-dataproduct", "component:transaction-dataproduct"]
+
+  # Custom fields
+  # GitHub REST API: "https://api.github.com/repos/ericbroda/data-mesh-product-new/contents/specification-summary.yaml"
+  summarySpecification: "https://github.com/ericbroda/data-mesh-product-new/blob/master/specification-summary.yaml"
+  apiSpecification: "https://github.com/ericbroda/data-mesh-product-new/blob/master/specification-api.yaml"
+  querySpecification: "https://github.com/ericbroda/data-mesh-product-new/blob/master/specification-query.yaml"
+  eventSpecification: "https://github.com/ericbroda/data-mesh-product-new/blob/master/specification-event.yaml"
+  # Sample for schemas: https://datahubproject.io/docs/metadata-service (Retrieving Entity Aspects section)
+  schemaSpecification: "https://github.com/ericbroda/data-mesh-product-new/blob/master/specification-schema.json"

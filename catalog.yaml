@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: Broda Group Software Sample Catalog
+  description: A collection of sample entities
+spec:
+  targets:
+    - ./apis/petstore.yaml
+    - ./dataproducts/party/catalog-info.yaml
+    - ./orgs/brodagroupsoftware.yaml
+    - ./systems/enterprise-systems.yaml

@@ -1,0 +1,177 @@
+# Source: https://datahubproject.io/docs/metadata-service (Retrieving Entityt Aspects section)
+urn: urn:li:dataset:(urn:li:dataPlatform:hdfs,SampleHdfsDataset,PROD)
+entityName: dataset
+aspects:
+  editableSchemaMetadata:
+    name: editableSchemaMetadata
+    version: 0
+    value:
+      created:
+        actor: urn:li:corpuser:jdoe
+        time: 1581407189000
+      editableSchemaFieldInfo:
+        - fieldPath: shipment_info
+          globalTags:
+            tags:
+              - tag: urn:li:tag:Legacy
+      lastModified:
+        actor: urn:li:corpuser:jdoe
+        time: 1581407189000
+    created:
+      actor: urn:li:corpuser:UNKNOWN
+      time: 1646245614843
+  browsePaths:
+    name: browsePaths
+    version: 0
+    value:
+      paths:
+        - /prod/hdfs/SampleHdfsDataset
+    created:
+      actor: urn:li:corpuser:UNKNOWN
+      time: 1646245614843
+  datasetKey:
+    name: datasetKey
+    version: 0
+    value:
+      name: SampleHdfsDataset
+      platform: urn:li:dataPlatform:hdfs
+      origin: PROD
+    created:
+      actor: urn:li:corpuser:UNKNOWN
+      time: 1646245614843
+  ownership:
+    name: ownership
+    version: 0
+    value:
+      owners:
+        - owner: urn:li:corpuser:jdoe
+          type: DATAOWNER
+        - owner: urn:li:corpuser:datahub
+          type: DATAOWNER
+      lastModified:
+        actor: urn:li:corpuser:jdoe
+        time: 1581407189000
+    created:
+      actor: urn:li:corpuser:UNKNOWN
+      time: 1646245614843
+  dataPlatformInstance:
+    name: dataPlatformInstance
+    version: 0
+    value:
+      platform: urn:li:dataPlatform:hdfs
+    created:
+      actor: urn:li:corpuser:UNKNOWN
+      time: 1646245614843
+  institutionalMemory:
+    name: institutionalMemory
+    version: 0
+    value:
+      elements:
+        - createStamp:
+            actor: urn:li:corpuser:jdoe
+            time: 1581407189000
+          description: Sample doc
+          url: https://www.linkedin.com
+    created:
+      actor: urn:li:corpuser:UNKNOWN
+      time: 1646245614843
+  schemaMetadata:
+    name: schemaMetadata
+    version: 0
+    value:
+      created:
+        actor: urn:li:corpuser:jdoe
+        time: 1581407189000
+      platformSchema:
+        com.linkedin.schema.KafkaSchema:
+          documentSchema: >-
+            {"type":"record","name":"SampleHdfsSchema","namespace":"com.linkedin.dataset","doc":"Sample
+            HDFS
+            dataset","fields":[{"name":"field_foo","type":["string"]},{"name":"field_bar","type":["boolean"]}]}
+      lastModified:
+        actor: urn:li:corpuser:jdoe
+        time: 1581407189000
+      schemaName: SampleHdfsSchema
+      fields:
+        - nullable: false
+          fieldPath: shipment_info
+          description: Shipment info description
+          isPartOfKey: false
+          type:
+            type:
+              com.linkedin.schema.RecordType: {}
+          nativeDataType: varchar(100)
+          recursive: false
+        - nullable: false
+          fieldPath: shipment_info.date
+          description: Shipment info date description
+          isPartOfKey: false
+          type:
+            type:
+              com.linkedin.schema.DateType: {}
+          nativeDataType: Date
+          recursive: false
+        - nullable: false
+          fieldPath: shipment_info.target
+          description: Shipment info target description
+          isPartOfKey: false
+          type:
+            type:
+              com.linkedin.schema.StringType: {}
+          nativeDataType: text
+          recursive: false
+        - nullable: false
+          fieldPath: shipment_info.destination
+          description: Shipment info destination description
+          isPartOfKey: false
+          type:
+            type:
+              com.linkedin.schema.StringType: {}
+          nativeDataType: varchar(100)
+          recursive: false
+        - nullable: false
+          fieldPath: shipment_info.geo_info
+          description: Shipment info geo_info description
+          isPartOfKey: false
+          type:
+            type:
+              com.linkedin.schema.RecordType: {}
+          nativeDataType: varchar(100)
+          recursive: false
+        - nullable: false
+          fieldPath: shipment_info.geo_info.lat
+          description: Shipment info geo_info lat
+          isPartOfKey: false
+          type:
+            type:
+              com.linkedin.schema.NumberType: {}
+          nativeDataType: float
+          recursive: false
+        - nullable: false
+          fieldPath: shipment_info.geo_info.lng
+          description: Shipment info geo_info lng
+          isPartOfKey: false
+          type:
+            type:
+              com.linkedin.schema.NumberType: {}
+          nativeDataType: float
+          recursive: false
+      version: 0
+      hash: ''
+      platform: urn:li:dataPlatform:hdfs
+    created:
+      actor: urn:li:corpuser:UNKNOWN
+      time: 1646245614843
+  upstreamLineage:
+    name: upstreamLineage
+    version: 0
+    value:
+      upstreams:
+        - auditStamp:
+            actor: urn:li:corpuser:jdoe
+            time: 1581407189000
+          type: TRANSFORMED
+          dataset: urn:li:dataset:(urn:li:dataPlatform:kafka,SampleKafkaDataset,PROD)
+    created:
+      actor: urn:li:corpuser:UNKNOWN
+      time: 1646245614843
