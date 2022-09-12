@@ -6,7 +6,7 @@ metadata:
 spec:
   targets:
     - ./apis/petstore.yaml
-    # - ./dataproducts/party/catalog-info.yaml
-    # - ./domains/enterprise-domains.yaml
-    # - ./orgs/brodagroupsoftware.yaml
-    # - ./systems/enterprise-systems.yaml
+    - ./dataproducts/party/catalog-info.yaml
+    - ./domains/enterprise-domains.yaml
+    - ./orgs/brodagroupsoftware.yaml
+    - ./systems/enterprise-systems.yaml
