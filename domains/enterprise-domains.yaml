@@ -6,28 +6,28 @@ metadata:
   description: partyDomain
 spec:
   owner: guest
-# ---
-# apiVersion: backstage.io/v1alpha1
-# kind: Domain
-# metadata:
-#   name: account-domain
-#   description: party-domain
-# spec:
-#   owner: eric.broda
-# ---
-# apiVersion: backstage.io/v1alpha1
-# kind: Domain
-# metadata:
-#   name: product-domain
-#   description: party-domain
-# spec:
-#   owner: eric.broda
-# ---
-# apiVersion: backstage.io/v1alpha1
-# kind: Domain
-# metadata:
-#   name: transaction-domain
-#   description: party-domain
-# spec:
-#   owner: eric.broda
-# ---
+---
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: accountDomain
+  description: accountDomain
+spec:
+  owner: guest
+---
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: productDomain
+  description: productDomain
+spec:
+  owner: guest
+---
+apiVersion: backstage.io/v1alpha1
+kind: Domain
+metadata:
+  name: transactionDomain
+  description: transactionDomain
+spec:
+  owner: guest
+---
