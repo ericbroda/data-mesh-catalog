@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: "party-dataproduct"
-  namespace: broda-group-software
+  # namespace: broda-group-software
   title: "Party Data Product 01"
   description: "Broda Group Software sample party data product"
   # labels:
