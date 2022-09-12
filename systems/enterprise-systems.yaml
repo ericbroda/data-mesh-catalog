@@ -23,14 +23,14 @@ spec:
   owner: guest
   domain: party-domain
 ---
-# apiVersion: backstage.io/v1alpha1
-# kind: System
-# metadata:
-#   name: customer-mobile
-# spec:
-#   owner: guest
-#   domain: party-domain
-# ---
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: customer-mobile
+spec:
+  owner: guest
+  domain: party-domain
+---
 # apiVersion: backstage.io/v1alpha1
 # kind: System
 # metadata:
