@@ -1,0 +1,31 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "transaction-datatransaction"
+  # namespace: broda-group-software
+  title: "Transaction Data Transaction 01"
+  description: "Broda Group Software sample transaction data transaction"
+  # labels:
+  # annotations:
+  tags: ["transaction"]
+  # links:
+spec:
+  # Reserved fields
+  type: data-transaction
+  lifecycle: "experimental"
+  owner: "user:guest"
+  # owner: "user:eric.broda"
+  system: "customer-analytics"
+  subcomponentOf: "parent-1"
+  providesApis: ["somePublishedAPI"]
+  consumesApis: ["someConsumedAPI"]
+  dependsOn: ["component:transaction-datatransaction", "component:transaction-datatransaction", "component:transaction-datatransaction"]
+
+  # Custom fields
+  # GitHub REST API: "https://api.github.com/repos/ericbroda/data-mesh-transaction-new/contents/specification-license.yaml"
+  licenseSpecification: "https://github.com/ericbroda/data-mesh-catalog/blob/main/datatransactions/transaction/specification-license.yaml"
+  apiSpecification: "https://github.com/ericbroda/data-mesh-catalog/blob/main/datatransactions/transaction/specification-api.yaml"
+  querySpecification: "https://github.com/ericbroda/data-mesh-catalog/blob/main/datatransactions/transaction/specification-query.yaml"
+  eventSpecification: "https://github.com/ericbroda/data-mesh-catalog/blob/main/datatransactions/transaction/specification-event.yaml"
+  # Sample for schemas: https://datahubproject.io/docs/metadata-service (Retrieving Entity Aspects section)
+  schemaSpecification: "https://github.com/ericbroda/data-mesh-catalog/blob/main/datatransactions/transaction/specification-schema.json"

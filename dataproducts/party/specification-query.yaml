@@ -1,40 +1,30 @@
 queryspecification:
   - query:
-    title: "query-001"
-    description: "Query 001 Description"
+    title: "PARTY-SELECT"
+    description: "Party - Select all parties"
     contact:
       name: "owner-1"
       email: contact@brodagroupsoftware.com
     version: v0.0.1
     statement:
-      "select * from Account"
+      "SELECT * from Party"
 
   - query:
-    title: "query-002"
-    description: "Query 002 Description"
+    title: "PARTY-SELECT-CANADA"
+    description: "Party - Select all parties in Canada region"
     contact:
       name: "owner-1"
       email: contact@brodagroupsoftware.com
     version: v0.0.1
     statement:
-      "select * from Product"
+      "SELECT * from Party WHERE region = 'Canada'"
 
   - query:
-    title: "query-003"
-    description: "Query 003 Description"
+    title: "PARTY-SELECT-CANADA-OVER55"
+    description: Party - Select all parties in Canada region over 55 years old"
     contact:
       name: "owner-1"
       email: contact@brodagroupsoftware.com
     version: v0.0.1
     statement:
-      "select * from Party"
-
-  - query:
-    title: "query-004"
-    description: "Query 004 Description"
-    contact:
-      name: "owner-1"
-      email: contact@brodagroupsoftware.com
-    version: v0.0.1
-    statement:
-      "select * from Transaction"
+      "SELECT * from Party WHERE region = 'Canada' AND age > 55"

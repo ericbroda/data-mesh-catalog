@@ -1,8 +1,8 @@
 asyncapi: 2.2.0
 info:
-  title: "Party Data Product Event Schema"
+  title: "Product Data Product Event Schema"
   version: 1.0.0
-  description: Party Data Product Event AsyncAPI (asyncapi.com) Schema
+  description: Product Data Product Event AsyncAPI (asyncapi.com) Schema
 channels:
   user/signedup:
     subscribe:

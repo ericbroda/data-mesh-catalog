@@ -1,0 +1,30 @@
+queryspecification:
+  - query:
+    title: "PRODUCT-SELECT"
+    description: "Product - Select all products"
+    contact:
+      name: "owner-1"
+      email: contact@brodagroupsoftware.com
+    version: v0.0.1
+    statement:
+      "SELECT * from Product"
+
+  - query:
+    title: "PRODUCT-SELECT-CANADA"
+    description: "Product - Select all products offered in Canada region"
+    contact:
+      name: "owner-1"
+      email: contact@brodagroupsoftware.com
+    version: v0.0.1
+    statement:
+      "SELECT * from Product WHERE offeredregion = 'Canada'"
+
+  - query:
+    title: "PRODUCT-SELECT-CANADA-LAST180DAYS"
+    description: Product - Select all products offered in Canada region that are active"
+    contact:
+      name: "owner-1"
+      email: contact@brodagroupsoftware.com
+    version: v0.0.1
+    statement:
+      "SELECT * from Product WHERE offeredregion = 'Canada' AND status = 'active'"

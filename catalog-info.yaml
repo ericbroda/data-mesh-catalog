@@ -9,4 +9,7 @@ spec:
     - ./domains/enterprise-domains.yaml
     - ./systems/enterprise-systems.yaml
     - ./apis/petstore.yaml
+    - ./dataproducts/account/catalog-info.yaml
     - ./dataproducts/party/catalog-info.yaml
+    - ./dataproducts/product/catalog-info.yaml
+    - ./dataproducts/transaction/catalog-info.yaml

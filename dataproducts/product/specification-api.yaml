@@ -2,8 +2,8 @@ openapi: 3.0.1
 servers:
   - url: http://brodagroupsoftware/v1
 info:
-  title: "Party Data Product API"
-  description: "Party Data Product API to access party data"
+  title: "Product Data Product API"
+  description: "Product Data Product API to access product data"
   contact:
     name: "eric.broda"
     email: contact@brodagroupsoftware.com

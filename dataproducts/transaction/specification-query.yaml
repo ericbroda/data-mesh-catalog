@@ -1,0 +1,30 @@
+queryspecification:
+  - query:
+    title: "TRANSACTION-SELECT"
+    description: "Transaction - Select all transactions"
+    contact:
+      name: "owner-1"
+      email: contact@brodagroupsoftware.com
+    version: v0.0.1
+    statement:
+      "SELECT * from Transaction"
+
+  - query:
+    title: "TRANSACTION-SELECT-CANADA"
+    description: "Transaction - Select all transactions that occurred in Canada"
+    contact:
+      name: "owner-1"
+      email: contact@brodagroupsoftware.com
+    version: v0.0.1
+    statement:
+      "SELECT * from Transaction WHERE occurredin = 'Canada'"
+
+  - query:
+    title: "TRANSACTION-SELECT-CANADA-LAST180DAYS"
+    description: Transaction - Select all transactions that occurred in Canada region with lower amount than $10 value"
+    contact:
+      name: "owner-1"
+      email: contact@brodagroupsoftware.com
+    version: v0.0.1
+    statement:
+      "SELECT * from Transaction WHERE occurredin = 'Canada' AND amount < 10.00"

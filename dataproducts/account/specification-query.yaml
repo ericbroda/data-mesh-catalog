@@ -1,0 +1,30 @@
+queryspecification:
+  - query:
+    title: "ACCOUNT-SELECT"
+    description: "Account - Select all accounts"
+    contact:
+      name: "owner-1"
+      email: contact@brodagroupsoftware.com
+    version: v0.0.1
+    statement:
+      "SELECT * from Account"
+
+  - query:
+    title: "ACCOUNT-SELECT-CANADA"
+    description: "Account - Select all accounts in Canada region"
+    contact:
+      name: "owner-1"
+      email: contact@brodagroupsoftware.com
+    version: v0.0.1
+    statement:
+      "SELECT * from Account WHERE region = 'Canada'"
+
+  - query:
+    title: "ACCOUNT-SELECT-CANADA-LAST180DAYS"
+    description: Account - Select all accounts in Canada region opened in last 180 days"
+    contact:
+      name: "owner-1"
+      email: contact@brodagroupsoftware.com
+    version: v0.0.1
+    statement:
+      "SELECT * from Account WHERE region = 'Canada' AND accountagedays > 180"
