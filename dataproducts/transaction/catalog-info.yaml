@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "transaction-datatransaction"
+  name: "transaction-dataproduct"
   # namespace: broda-group-software
   title: "Transaction Data Transaction 01"
   description: "Broda Group Software sample transaction data transaction"
