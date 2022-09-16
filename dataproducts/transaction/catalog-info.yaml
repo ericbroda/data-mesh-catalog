@@ -11,7 +11,7 @@ metadata:
   # links:
 spec:
   # Reserved fields
-  type: data-transaction
+  type: data-product
   lifecycle: "experimental"
   owner: "user:eric.broda"
   system: "customer-analytics"
