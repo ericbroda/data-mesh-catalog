@@ -3,7 +3,7 @@ queryspecification:
     title: "PARTY-SELECT"
     description: "Party - Select all parties"
     contact:
-      name: "owner-1"
+      name: "user:eric.broda"
       email: contact@brodagroupsoftware.com
     version: v0.0.1
     statement:
@@ -13,7 +13,7 @@ queryspecification:
     title: "PARTY-SELECT-CANADA"
     description: "Party - Select all parties in Canada region"
     contact:
-      name: "owner-1"
+      name: "user:eric.broda"
       email: contact@brodagroupsoftware.com
     version: v0.0.1
     statement:
@@ -23,7 +23,7 @@ queryspecification:
     title: "PARTY-SELECT-CANADA-OVER55"
     description: Party - Select all parties in Canada region over 55 years old"
     contact:
-      name: "owner-1"
+      name: "user:eric.broda"
       email: contact@brodagroupsoftware.com
     version: v0.0.1
     statement:

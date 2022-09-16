@@ -6,7 +6,7 @@ metadata:
 spec:
   type: openapi
   lifecycle: production
-  owner: guest
+  owner: user:eric.broda
   system: customer-advisor
   # This can also be used: $text: https://petstore.swagger.io/v2/swagger.json
   definition: |
@@ -21,7 +21,7 @@ spec:
         "title": "API 001",
         "description": "API 001",
         "contact": {
-          "name": "Eric Broda",
+          "name": "eric.broda",
           "email": "eric.broda@brodagroupsoftware.com"
         },
         "version": "v0.0.1"

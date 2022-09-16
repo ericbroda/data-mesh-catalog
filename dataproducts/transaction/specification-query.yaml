@@ -3,7 +3,7 @@ queryspecification:
     title: "TRANSACTION-SELECT"
     description: "Transaction - Select all transactions"
     contact:
-      name: "owner-1"
+      name: "user:eric.broda"
       email: contact@brodagroupsoftware.com
     version: v0.0.1
     statement:
@@ -13,7 +13,7 @@ queryspecification:
     title: "TRANSACTION-SELECT-CANADA"
     description: "Transaction - Select all transactions that occurred in Canada"
     contact:
-      name: "owner-1"
+      name: "user:eric.broda"
       email: contact@brodagroupsoftware.com
     version: v0.0.1
     statement:
@@ -23,7 +23,7 @@ queryspecification:
     title: "TRANSACTION-SELECT-CANADA-LAST180DAYS"
     description: Transaction - Select all transactions that occurred in Canada region with lower amount than $10 value"
     contact:
-      name: "owner-1"
+      name: "user:eric.broda"
       email: contact@brodagroupsoftware.com
     version: v0.0.1
     statement:
