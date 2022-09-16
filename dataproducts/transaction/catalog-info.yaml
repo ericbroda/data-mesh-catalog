@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: "transaction-dataproduct"
   # namespace: broda-group-software
-  title: "Transaction Data Transaction 01"
+  title: "Transaction Data Product 01"
   description: "Broda Group Software sample transaction data transaction"
   # labels:
   # annotations:
@@ -18,7 +18,7 @@ spec:
   subcomponentOf: "parent-1"
   providesApis: ["somePublishedAPI"]
   consumesApis: ["someConsumedAPI"]
-  dependsOn: ["component:transaction-datatransaction", "component:transaction-datatransaction", "component:transaction-datatransaction"]
+  dependsOn: ["component:account-datatransaction", "component:party-datatransaction", "component:product-datatransaction"]
 
   # Custom fields
   # GitHub REST API: "https://api.github.com/repos/ericbroda/data-mesh-transaction-new/contents/specification-license.yaml"
