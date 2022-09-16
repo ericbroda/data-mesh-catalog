@@ -18,7 +18,7 @@ spec:
   subcomponentOf: "parent-1"
   providesApis: ["somePublishedAPI"]
   consumesApis: ["someConsumedAPI"]
-  dependsOn: ["component:account-datatransaction", "component:party-datatransaction", "component:transaction-datatransaction"]
+  dependsOn: ["component:account-dataproduct", "component:party-dataproduct", "component:transaction-dataproduct"]
 
   # Custom fields
   # GitHub REST API: "https://api.github.com/repos/ericbroda/data-mesh-product-new/contents/specification-license.yaml"

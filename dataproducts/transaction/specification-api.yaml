@@ -2,8 +2,8 @@ openapi: 3.0.1
 servers:
   - url: http://brodagroupsoftware/v1
 info:
-  title: "Transaction Data Transaction API"
-  description: "Transaction Data Transaction API to access transaction data"
+  title: "Transaction Data Product API"
+  description: "Transaction Data Product API to access transaction data"
   contact:
     name: "eric.broda"
     email: contact@brodagroupsoftware.com

@@ -4,7 +4,7 @@ metadata:
   name: "transaction-dataproduct"
   # namespace: broda-group-software
   title: "Transaction Data Product 01"
-  description: "Broda Group Software sample transaction data transaction"
+  description: "Broda Group Software sample transaction data product"
   # labels:
   # annotations:
   tags: ["transaction"]
@@ -18,13 +18,13 @@ spec:
   subcomponentOf: "parent-1"
   providesApis: ["somePublishedAPI"]
   consumesApis: ["someConsumedAPI"]
-  dependsOn: ["component:account-datatransaction", "component:party-datatransaction", "component:product-datatransaction"]
+  dependsOn: ["component:account-dataproduct", "component:party-dataproduct", "component:product-dataproduct"]
 
   # Custom fields
   # GitHub REST API: "https://api.github.com/repos/ericbroda/data-mesh-transaction-new/contents/specification-license.yaml"
-  licenseSpecification: "https://github.com/ericbroda/data-mesh-catalog/blob/main/datatransactions/transaction/specification-license.yaml"
-  apiSpecification: "https://github.com/ericbroda/data-mesh-catalog/blob/main/datatransactions/transaction/specification-api.yaml"
-  querySpecification: "https://github.com/ericbroda/data-mesh-catalog/blob/main/datatransactions/transaction/specification-query.yaml"
-  eventSpecification: "https://github.com/ericbroda/data-mesh-catalog/blob/main/datatransactions/transaction/specification-event.yaml"
+  licenseSpecification: "https://github.com/ericbroda/data-mesh-catalog/blob/main/dataproducts/transaction/specification-license.yaml"
+  apiSpecification: "https://github.com/ericbroda/data-mesh-catalog/blob/main/dataproducts/transaction/specification-api.yaml"
+  querySpecification: "https://github.com/ericbroda/data-mesh-catalog/blob/main/dataproducts/transaction/specification-query.yaml"
+  eventSpecification: "https://github.com/ericbroda/data-mesh-catalog/blob/main/dataproducts/transaction/specification-event.yaml"
   # Sample for schemas: https://datahubproject.io/docs/metadata-service (Retrieving Entity Aspects section)
-  schemaSpecification: "https://github.com/ericbroda/data-mesh-catalog/blob/main/datatransactions/transaction/specification-schema.json"
+  schemaSpecification: "https://github.com/ericbroda/data-mesh-catalog/blob/main/dataproducts/transaction/specification-schema.json"
