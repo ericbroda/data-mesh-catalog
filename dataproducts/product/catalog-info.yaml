@@ -13,8 +13,7 @@ spec:
   # Reserved fields
   type: data-product
   lifecycle: "experimental"
-  owner: "user:guest"
-  # owner: "user:eric.broda"
+  owner: "user:eric.broda"
   system: "customer-analytics"
   subcomponentOf: "parent-1"
   providesApis: ["somePublishedAPI"]
