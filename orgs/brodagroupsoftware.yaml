@@ -5,6 +5,9 @@ metadata:
   name: BrodaGroupSoftware
 spec:
   type: root
+  profile:
+    displayName: Broda Group Software Inc.
+    email: eric.broda@brodagroupsoftware.com
   children: [IT]
 ---
 apiVersion: backstage.io/v1alpha1
@@ -20,6 +23,9 @@ kind: User
 metadata:
   name: eric.broda
 spec:
+  profile:
+    displayName: Eric Broda
+    email: eric.broda@brodagroupsoftware.com
   memberOf: [IT]
 ---
 apiVersion: backstage.io/v1alpha1
