@@ -15,6 +15,9 @@ kind: Group
 metadata:
   name: IT
 spec:
+  profile:
+    displayName: Information Technology
+    email: eric.broda@brodagroupsoftware.com
   type: team
   children: []
 ---
@@ -33,6 +36,9 @@ kind: User
 metadata:
   name: albert.einstein
 spec:
+  profile:
+    displayName: Albert Einstein
+    email: albert.einstein@brodagroupsoftware.com
   memberOf: [IT]
 ---
 apiVersion: backstage.io/v1alpha1
@@ -40,6 +46,9 @@ kind: User
 metadata:
   name: isaac.newton
 spec:
+  profile:
+    displayName: Isaac Newton
+    email: isaac.newton@brodagroupsoftware.com
   memberOf: [IT]
 ---
 apiVersion: backstage.io/v1alpha1
@@ -47,6 +56,9 @@ kind: User
 metadata:
   name: marie.curie
 spec:
+  profile:
+    displayName: Marie Curie
+    email:  marie.curie@brodagroupsoftware.com
   memberOf: [IT]
 ---
 apiVersion: backstage.io/v1alpha1
@@ -54,4 +66,7 @@ kind: User
 metadata:
   name: michael.faraday
 spec:
+  profile:
+    displayName: Michael Faraday
+    email: michael.farada@brodagroupsoftware.com
   memberOf: [IT]
