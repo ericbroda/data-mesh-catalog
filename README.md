@@ -138,4 +138,4 @@ There are several files that define a data product:
 - specification-event.yaml: an AsyncAPI specification that describes an subscribable data product event
 - specification-license.yaml: a license that governs use of the data product
 - specification-query.yaml: a list of queries supported by this data product
-- specification-schema.yaml: the metadata for the data managed by the data product
+- specification-metadata.yaml: the metadata for the data managed by the data product

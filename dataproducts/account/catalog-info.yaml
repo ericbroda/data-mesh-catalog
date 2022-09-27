@@ -27,4 +27,4 @@ spec:
   querySpecification: "https://github.com/ericbroda/data-mesh-catalog/blob/main/dataproducts/account/specification-query.yaml"
   eventSpecification: "https://github.com/ericbroda/data-mesh-catalog/blob/main/dataproducts/account/specification-event.yaml"
   # Sample for schemas: https://datahubproject.io/docs/metadata-service (Retrieving Entity Aspects section)
-  schemaSpecification: "https://github.com/ericbroda/data-mesh-catalog/blob/main/dataproducts/account/specification-schema.json"
+  metadataSpecification: "https://github.com/ericbroda/data-mesh-catalog/blob/main/dataproducts/account/specification-metadata.json"
