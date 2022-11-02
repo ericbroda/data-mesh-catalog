@@ -9,6 +9,11 @@ metadata:
   # annotations:
   tags: ["account"]
   # links:
+  links:
+    - url: someurl
+      title: sometitle
+      type: data-product
+
 spec:
   # Reserved fields
   type: data-product
@@ -19,10 +24,6 @@ spec:
   providesApis: ["somePublishedAPI"]
   consumesApis: ["someConsumedAPI"]
   dependsOn: ["component:party-dataproduct", "component:product-dataproduct", "component:transaction-dataproduct"]
-  links:
-    - url: someurl
-      title: sometitle
-      type: data-product
 
   # Custom fields
   # GitHub REST API: "https://api.github.com/repos/ericbroda/data-mesh-product-new/contents/specification-license.yaml"
