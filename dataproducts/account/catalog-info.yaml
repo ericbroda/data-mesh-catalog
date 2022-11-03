@@ -11,11 +11,11 @@ metadata:
   # links:
   links:
     - url: https://github.com/ericbroda/data-mesh-catalog/blob/main/dataproducts/account/specification-license.yaml
-      title: Documentation for using this data product
+      title: Documentation
     - url: https://github.com/ericbroda/data-mesh-catalog/blob/main/dataproducts/account/specification-license.yaml
-      title: Getting Started Guide for this data product
+      title: Getting Started Guide
     - url: https://github.com/ericbroda/data-mesh-catalog/blob/main/dataproducts/account/specification-license.yaml
-      title: Sandboxes available for this data product
+      title: Sandboxes
 
 spec:
   # Reserved fields
