@@ -7,7 +7,7 @@ metadata:
   description: "Broda Group Software sample account data product"
   # labels:
   # annotations:
-  tags: ["account"]
+  tags: ["account", "party", "product", "data-product"]
   # links:
   links:
     - url: https://github.com/ericbroda/data-mesh-catalog/blob/main/dataproducts/account/specification-license.yaml
