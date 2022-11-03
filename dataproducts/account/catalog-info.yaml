@@ -10,8 +10,8 @@ metadata:
   tags: ["account"]
   # links:
   links:
-    - url: someurl
-      title: sometitle
+    - url: https://github.com/ericbroda/data-mesh-catalog/blob/main/dataproducts/account/specification-license.yaml
+      title: This is a sample link
       type: data-product
 
 spec:
